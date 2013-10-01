@@ -5,13 +5,6 @@ html, body {
 }
 
 /* */
-/* background
-/* */
-.bg {
-    background-color: #e6e7e0;
-    background: #e3e3e3 url('http://passets-ak.pinterest.com/webapp/app/common/images/bg.11437c43.png?1375208026') repeat;
-}
-/* */
 /* top bar
 /* */
 .top-bar {
@@ -24,30 +17,25 @@ html, body {
 
     z-index: 100;
 	text-align: right;
-
-	border-bottom: 1px solid #4c4340;
-	border-bottom-color: rgba(40, 40, 40, 0.8);
-
-	-webkit-box-shadow: 0 1px 0 rgba(150, 150, 150, 0.5) inset, 0 -1px 0 rgba(150, 150, 150, 0.2) inset, 0px 1px 1px rgba(0,0,0,.2);
-	-moz-box-shadow: 0 1px 0 rgba(150, 150, 150, 0.5) inset, 0 -1px 0 rgba(150, 150, 150, 0.2) inset, 0px 1px 1px rgba(0,0,0,.2);
-	box-shadow: 0 1px 0 rgba(150, 150, 150, 0.5) inset, 0 -1px 0 rgba(150, 150, 150, 0.2) inset, 0px 1px 1px rgba(0,0,0,.2);
-	
-    background-color: #515151;
-	background-image: url("//d36xtkk24g8jdx.cloudfront.net/bluebar/92a81f2/images/shared/noise-1.png"), -webkit-gradient(linear, left top, left bottom, from(#515151), to(#303038));
-	background-image: url("//d36xtkk24g8jdx.cloudfront.net/bluebar/92a81f2/images/shared/noise-1.png"), -webkit-linear-gradient(top, #515151, #303038);
-	background-image: url("//d36xtkk24g8jdx.cloudfront.net/bluebar/92a81f2/images/shared/noise-1.png"), -moz-linear-gradient(top, #515151, #303038);
-	background-image: url("//d36xtkk24g8jdx.cloudfront.net/bluebar/92a81f2/images/shared/noise-1.png"), -o-linear-gradient(top, #515151, #303038);
-	background-image: url("//d36xtkk24g8jdx.cloudfront.net/bluebar/92a81f2/images/shared/noise-1.png"), -ms-linear-gradient(top, #515151, #303038);
-	background-image: url("//d36xtkk24g8jdx.cloudfront.net/bluebar/92a81f2/images/shared/noise-1.png"), linear-gradient(top, #515151, #303038);
-	background-position: 50% 50%;
 }
 .top-inner {
-    width: 832px;
+    width: 960px;
     height: 35px;
     padding: 0px 4px;
     margin: 0 auto;
 
     text-align: right;
+	box-sizing: border-box;
+}
+.top-inner .logo {
+	position: absolute;
+	width: 150px;
+	height: 25px;
+	top: 5px;
+}
+.top-inner .logo img {
+	width: 100%;
+	height: 100%;
 }
 .top-inner ul {
     display: block;
@@ -60,71 +48,46 @@ html, body {
 .top-inner ul li {
     display: block;
     float: left;
-    width: 50px;
+    width: auto;
     height: 35px;
+	padding: 0 15px;
 	
     line-height: 35px;
     text-align: center;
+	
+	font-family: 'Nanum Gothic', '맑은 고딕', sans-serif;
+	font-size: 1.1em;
+	font-weight: bold;
 
     cursor: pointer;
 
     font-size: 1.4em;
-    color: #aaa;
-
-    border-right: 1px solid #242924;
-
-	-webkit-box-shadow: 0 1px 0 rgba(150, 150, 150, 0.5) inset, 0 -1px 0 rgba(150, 150, 150, 0.2) inset, 0px 1px 1px rgba(0,0,0,.2);
-	-moz-box-shadow: 0 1px 0 rgba(150, 150, 150, 0.5) inset, 0 -1px 0 rgba(150, 150, 150, 0.2) inset, 0px 1px 1px rgba(0,0,0,.2);
-	box-shadow: 0 1px 0 rgba(150, 150, 150, 0.5) inset, 0 -1px 0 rgba(150, 150, 150, 0.2) inset, 0px 1px 1px rgba(0,0,0,.2);
-	
-    background-color: #ffe1ab;
-	background-image: url("//d36xtkk24g8jdx.cloudfront.net/bluebar/92a81f2/images/shared/noise-1.png"), -webkit-gradient(linear, left top, left bottom, from(#515151), to(#303038));
-	background-image: url("//d36xtkk24g8jdx.cloudfront.net/bluebar/92a81f2/images/shared/noise-1.png"), -webkit-linear-gradient(top, #515151, #303038);
-	background-image: url("//d36xtkk24g8jdx.cloudfront.net/bluebar/92a81f2/images/shared/noise-1.png"), -moz-linear-gradient(top, #515151, #303038);
-	background-image: url("//d36xtkk24g8jdx.cloudfront.net/bluebar/92a81f2/images/shared/noise-1.png"), -o-linear-gradient(top, #515151, #303038);
-	background-image: url("//d36xtkk24g8jdx.cloudfront.net/bluebar/92a81f2/images/shared/noise-1.png"), -ms-linear-gradient(top, #515151, #303038);
-	background-image: url("//d36xtkk24g8jdx.cloudfront.net/bluebar/92a81f2/images/shared/noise-1.png"), linear-gradient(top, #515151, #303038);
-	background-position: 50% 50%;
-
-    -o-transition: color, background 0.2s;
-	-ms-transition: color, background 0.2s;
-	-moz-transition: color, background 0.2s;
-	-webkit-transition: color, background 0.2s;
-}
-.top-inner ul li:first-child {
-    border-left: 1px solid #242924;
-}
-.top-inner ul li:hover {
-    border-right: 1px solid #afafaf;
-    color: black;
-
-    background-color: #cfcfcf;
-	background-image: url("//d36xtkk24g8jdx.cloudfront.net/bluebar/92a81f2/images/shared/noise-1.png"), -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#bfbfbf));
-	background-image: url("//d36xtkk24g8jdx.cloudfront.net/bluebar/92a81f2/images/shared/noise-1.png"), -webkit-linear-gradient(top, #cfcfcf, #bfbfbf);
-	background-image: url("//d36xtkk24g8jdx.cloudfront.net/bluebar/92a81f2/images/shared/noise-1.png"), -moz-linear-gradient(top, #cfcfcf, #bfbfbf);
-	background-image: url("//d36xtkk24g8jdx.cloudfront.net/bluebar/92a81f2/images/shared/noise-1.png"), -o-linear-gradient(top, #cfcfcf, #bfbfbf);
-	background-image: url("//d36xtkk24g8jdx.cloudfront.net/bluebar/92a81f2/images/shared/noise-1.png"), -ms-linear-gradient(top, #cfcfcf, #bfbfbf);
-	background-image: url("//d36xtkk24g8jdx.cloudfront.net/bluebar/92a81f2/images/shared/noise-1.png"), linear-gradient(top, #cfcfcf, #bfbfbf);
-}
-.top-inner ul li:first-child:hover {
-    border-left: 1px solid #afafaf;
 }
 
 /* */
 /* page
 /* */
 .page {
-    width: 840px;
+    width: 960px;
     min-height: 100%;
     height: auto;
     margin: 0 auto;
-	margin-top: 40px;
-    padding: 0 40px;
-
+}
+.page.inner-shadow {
+	padding: 0 40px;
     -webkit-box-shadow: inset 1px 0 0 rgba(0,0,0,.05), inset -1px 0 0 rgba(0,0,0,.05);
     -moz-box-shadow: inset 1px 0 0 rgba(0,0,0,.05), inset -1px 0 0 rgba(0,0,0,.05);
     box-shadow: inset 1px 0 0 rgba(0,0,0,.05), inset -1px 0 0 rgba(0,0,0,.05);
-    background: #e0e1e2 url("//d36xtkk24g8jdx.cloudfront.net/bluebar/92a81f2/images/shared/noise-2.png");
+	background-color: rgba(120, 120, 120, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-width: 0 1px;
+}
+.page.outer-shadow {
+	padding: 0 40px;
+    -webkit-box-shadow: inset 1px 0 0 rgba(0,0,0,.05), inset -1px 0 0 rgba(0,0,0,.05);
+    -moz-box-shadow: inset 1px 0 0 rgba(0,0,0,.05), inset -1px 0 0 rgba(0,0,0,.05);
+    box-shadow: inset 1px 0 0 rgba(0,0,0,.05), inset -1px 0 0 rgba(0,0,0,.05);
+	background-color: rgba(255, 255, 255, 0.2);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-width: 0 1px;
 }
@@ -138,21 +101,23 @@ html, body {
 /* contents
 /* */
 .contents {
-    width: 840px;
+    width: 960px;
     height: auto;
+	margin-top: 36px;
 }
 
 /* */
 /* footer
 /* */
 .footer {
-    width: 832px;
+    width: 960px;
     height: auto;
     padding: 4px;
     margin: 0px;
 
     background-color: transparent;
     box-shadow: none;
+	box-sizing: border-box;
 }
 .footer hr {
     border: 0px;
@@ -165,36 +130,60 @@ html, body {
     color: #404040;
 }
 
-@media screen and (max-width: 840px) {
-    .top-inner {
-        width: 664px;
-    }
+
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+	.top-inner {
+		width: 320px;
+	}
+	.top-inner .logo {
+	}
+	.top-inner ul {
+		position: static;
+	}
     .page {
-        width: 672px;
-        padding: 0px;
-        -webkit-box-shadow: none;
-        -moz-box-shadow: none;
-        box-shadow: none;
-        background: none;
-        border: none;
-    }
-    .header {
-        width: 672px;
-    }
-    .header-title {
-        width: 477px
-    }
-    .header-nav {
-        width: 492px
+        width: 320px;
     }
     .contents {
-        width: 672px;
+        width: 320px;
     }
     .footer {
-        width: 664px;
+        width: 320px;
     }
 }
-
+  
+/* Landscape phone to portrait tablet */
+@media (min-width: 481px) and (max-width: 767px) { 
+	.top-inner {
+		width: 640px;
+	}
+    .page {
+        width: 640px;
+    }
+    .contents {
+        width: 640px;
+    }
+    .footer {
+        width: 640px;
+    }
+}
+  
+/* Portrait tablet to landscape and desktop */
+@media screen and (min-width: 768px) and (max-width: 979px) { 
+	.top-inner {
+		width: 640px;
+	}
+    .page {
+        width: 640px;
+    }
+    .contents {
+        width: 640px;
+    }
+    .footer {
+        width: 640px;
+    }
+}
+/*
 @media screen and (max-width: 664px) {
     .top-inner {
         width: 504px;
@@ -250,4 +239,4 @@ html, body {
     .footer p {
         display: none;
     }
-}
+}*/

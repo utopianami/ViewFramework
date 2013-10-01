@@ -1,0 +1,152 @@
+﻿
+/* */
+/* background
+/* */
+/* gray */
+.bg-gray {
+    background-color: #e6e7e0;
+}
+/* dark brown */
+.bg-dark-brown {
+    background: #f7e3d7;
+}
+
+/* */
+/* top bar
+/* */
+/* gray */
+.top-bar.color-gray {
+	border-bottom: 1px solid #4c4340;
+	border-bottom-color: rgba(40, 40, 40, 0.8);
+
+	-webkit-box-shadow: 0 1px 0 rgba(150, 150, 150, 0.5) inset, 0 -1px 0 rgba(150, 150, 150, 0.2) inset, 0px 1px 1px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 0 rgba(150, 150, 150, 0.5) inset, 0 -1px 0 rgba(150, 150, 150, 0.2) inset, 0px 1px 1px rgba(0,0,0,.2);
+	box-shadow: 0 1px 0 rgba(150, 150, 150, 0.5) inset, 0 -1px 0 rgba(150, 150, 150, 0.2) inset, 0px 1px 1px rgba(0,0,0,.2);
+	
+    background-color: #515151;
+	background: -webkit-gradient(linear, left top, left bottom, from(#515151), to(#303038));
+	background: -webkit-linear-gradient(top, #515151, #303038);
+	background: -moz-linear-gradient(top, #515151, #303038);
+	background: -o-linear-gradient(top, #515151, #303038);
+	background: -ms-linear-gradient(top, #515151, #303038);
+	background: linear-gradient(top, #515151, #303038);
+}
+.top-bar.color-gray .top-inner ul li {
+    color: #aaa;
+
+    border-right: 1px solid #242924;
+
+	-webkit-box-shadow: 0 1px 0 rgba(150, 150, 150, 0.5) inset, 0 -1px 0 rgba(150, 150, 150, 0.2) inset, 0px 1px 1px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 0 rgba(150, 150, 150, 0.5) inset, 0 -1px 0 rgba(150, 150, 150, 0.2) inset, 0px 1px 1px rgba(0,0,0,.2);
+	box-shadow: 0 1px 0 rgba(150, 150, 150, 0.5) inset, 0 -1px 0 rgba(150, 150, 150, 0.2) inset, 0px 1px 1px rgba(0,0,0,.2);
+	
+    background-color: #ffe1ab;
+	background: -webkit-gradient(linear, left top, left bottom, from(#515151), to(#303038));
+	background: -webkit-linear-gradient(top, #515151, #303038);
+	background: -moz-linear-gradient(top, #515151, #303038);
+	background: -o-linear-gradient(top, #515151, #303038);
+	background: -ms-linear-gradient(top, #515151, #303038);
+	background: linear-gradient(top, #515151, #303038);
+}
+.top-bar.color-gray .top-inner ul li:first-child {
+    border-left: 1px solid #242924;
+}
+.top-bar.color-gray .top-inner ul li:hover {
+    border-right: 1px solid #afafaf;
+    color: black;
+
+    background-color: #cfcfcf;
+	background: -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#bfbfbf));
+	background: -webkit-linear-gradient(top, #cfcfcf, #bfbfbf);
+	background: -moz-linear-gradient(top, #cfcfcf, #bfbfbf);
+	background: -o-linear-gradient(top, #cfcfcf, #bfbfbf);
+	background: -ms-linear-gradient(top, #cfcfcf, #bfbfbf);
+	background: linear-gradient(top, #cfcfcf, #bfbfbf);
+}
+.top-inner ul li:first-child:hover {
+    border-left: 1px solid #afafaf;
+}
+
+/* dark brown */
+.top-bar.color-dark-brown {
+    border-bottom: 1px solid #4c4340;
+	border-bottom-color: rgba(40, 40, 40, 0.8);
+
+	-webkit-box-shadow: 0 1px 0 rgba(102, 37, 0, 0.5) inset, 0 -1px 0 rgba(102, 37, 0, 0.2) inset, 0px 1px 1px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 0 rgba(102, 37, 0, 0.5) inset, 0 -1px 0 rgba(102, 37, 0, 0.2) inset, 0px 1px 1px rgba(0,0,0,.2);
+	box-shadow: 0 1px 0 rgba(102, 37, 0, 0.5) inset, 0 -1px 0 rgba(102, 37, 0, 0.2) inset, 0px 1px 1px rgba(0,0,0,.2);
+	
+    background-color: #351e02;
+	background: -webkit-gradient(linear, left top, left bottom, from(#351e02), to(#250e02));
+	background: -webkit-linear-gradient(top, #351e02, #250e02);
+	background: -moz-linear-gradient(top, #351e02, #250e02);
+	background: -o-linear-gradient(top, #351e02, #250e02);
+	background: -ms-linear-gradient(top, #351e02, #250e02);
+	background: linear-gradient(top, #351e02, #250e02);
+}
+.top-bar.color-dark-brown .top-inner ul li {
+    color: #967466;
+    border-right: 1px solid #452e12;
+
+	-webkit-box-shadow: 0 1px 0 rgba(102, 37, 0, 0.5) inset, 0 -1px 0 rgba(102, 37, 0, 0.2) inset, 0px 1px 1px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 0 rgba(102, 37, 0, 0.5) inset, 0 -1px 0 rgba(102, 37, 0, 0.2) inset, 0px 1px 1px rgba(0,0,0,.2);
+	box-shadow: 0 1px 0 rgba(102, 37, 0, 0.5) inset, 0 -1px 0 rgba(102, 37, 0, 0.2) inset, 0px 1px 1px rgba(0,0,0,.2);
+	
+    background-color: #351e02;
+	background: -webkit-gradient(linear, left top, left bottom, from(#351e02), to(#250e02));
+	background: -webkit-linear-gradient(top, #351e02, #250e02);
+	background: -moz-linear-gradient(top, #351e02, #250e02);
+	background: -o-linear-gradient(top, #351e02, #250e02);
+	background: -ms-linear-gradient(top, #351e02, #250e02);
+	background: linear-gradient(top, #351e02, #250e02);
+}
+.top-bar.color-dark-brown .top-inner ul li:first-child {
+    border-left: 1px solid #452e12;
+}
+.top-bar.color-dark-brown .top-inner ul li:hover {
+    border-right: 1px solid #755e42;
+    color: #3C0000;
+
+    background-color: #914c31;
+	background: -webkit-gradient(linear, left top, left bottom, from(#914c31), to(#813c21));
+	background: -webkit-linear-gradient(top, #914c31, #813c21);
+	background: -moz-linear-gradient(top, #914c31, #813c21);
+	background: -o-linear-gradient(top, #914c31, #813c21);
+	background: -ms-linear-gradient(top, #914c31, #813c21);
+	background: linear-gradient(top, #914c31, #813c21);
+}
+.top-bar.color-dark-brown .top-inner ul li:first-child:hover {
+    border-left: 1px solid #755e42;
+}
+
+/* */
+/* block
+/* */
+.block .title.color-gray {
+	color: white;
+	border-bottom-color: #914c31;
+
+    background-color: #515151;
+	background: -webkit-gradient(linear, left top, left bottom, from(#515151), to(#303038));
+	background: -webkit-linear-gradient(top, #515151, #303038);
+	background: -moz-linear-gradient(top, #515151, #303038);
+	background: -o-linear-gradient(top, #515151, #303038);
+	background: -ms-linear-gradient(top, #515151, #303038);
+	background: linear-gradient(top, #515151, #303038);
+}
+.block .title.color-dark-brown {
+	color: white;
+	border-bottom-color: #914c31;
+
+    background-color: #914c31;
+	background: -webkit-gradient(linear, left top, left bottom, from(#914c31), to(#813c21));
+	background: -webkit-linear-gradient(top, #914c31, #813c21);
+	background: -moz-linear-gradient(top, #914c31, #813c21);
+	background: -o-linear-gradient(top, #914c31, #813c21);
+	background: -ms-linear-gradient(top, #914c31, #813c21);
+	background: linear-gradient(top, #914c31, #813c21);
+}
+
+/* */
+/* form
+/* */

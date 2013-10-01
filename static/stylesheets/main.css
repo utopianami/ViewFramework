@@ -22,10 +22,15 @@
 @import url('./layout.css'); 
 
 /* */
-/* pages
+/* color
 /* */
+@import url('./color.css'); 
 
 /* */
-/* theme
+/* color
 /* */
-/* @import url('./themes/dark-brown-theme.css'); */
+@import url('./form.css'); 
+
+/* */
+/* pages
+/* */
